@@ -1,0 +1,37 @@
+```
+COMMANDS:
+- book RoomID min - Book this room for "min" minutes (if it is available)
+- book OFFICE RoomName min - Book this OFFICE room for "min" minutes (if it is available)
+- delete RoomName - Delete meeting made in the room
+- rooms OFFICE- Shows OFFICE rooms with available time and features description
+- available OFFICE- Shows only available OFFICE rooms with time descriptions
+- room RoomID - Shows this room with available time and features description
+- room OFFICE RoomName - Shows this OFFICE room with available time and features description
+- filter OFFICE people:PeopleCount features:feature1,feature2,.. - Shows OFFICE rooms filter by people or/and by features (you can choose one or both parameters).
+
+EXAMPLES:
+- book 10 30
+- book LON Queen 20
+- delete Copacabana
+- rooms BA
+- available SF2
+- room 15
+- room BA The police
+- filter CHI people:8 features:appletv, projector
+- filter LON people:8
+- filter SF4 features:phone, led
+
+OFFICE could be: 
+- BA: Buenos Aires
+- SFM: San Francisco M
+- SF2: San Francisco floor 2
+- SF3: San Francisco floor 3
+- SF4: San Francisco floor 4
+- ATL: Atlanta
+- LON: London
+- AMS: Amsterdam
+- CHI: Chicago
+- AUS: Australia
+
+If you have any problem or questions, contact to booking@mulesoft.com
+```
